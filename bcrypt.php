@@ -1,3 +1,4 @@
+<?php
 class Bcrypt {
   private $rounds;
   public function __construct($rounds = 12) {
