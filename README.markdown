@@ -12,3 +12,8 @@ it's easy. it's nice. and you don't need to store salts. booyah.
     
     $hash = $bcrypt->hash('plaintext_password');
     $hash_check = $bcrypt->verify('plaintext_password', $hash);
+
+
+# testing
+
+I've included three unit tests in the tests folder using SimpleTest. they pass gracefully -- like swan.
